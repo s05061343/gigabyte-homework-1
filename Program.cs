@@ -11,7 +11,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddControllers();
 builder.Services.AddDbContextPool<ApplicationDbContext>(options =>
 {
     options.UseInMemoryDatabase("ProductDb");
